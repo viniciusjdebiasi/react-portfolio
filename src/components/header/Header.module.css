@@ -1,0 +1,126 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_header {
+    width: 100%;
+    height: 5rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburguer_img {
+    width: 3.5rem;
+    height: auto;
+}
+
+.hamburguer_button {
+    padding: 1rem;
+    margin: 0;
+    border: none;
+    background: none;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburguer_button:hover {
+    transform: scale(1.1);
+}
+
+.container_links {
+    width: 30rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.container_links li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.button_page {
+    text-decoration: none;
+    color: #FFF;
+    width: 9rem;
+    padding: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #8A2BE2;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+}
+
+.button_page:hover {
+    box-shadow: inset 10rem 0 0 0 #FFF;
+    color: #FF1493;
+    font-weight: bold;
+}
+
+.container_button_language {
+    width: 12rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.language_button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.language_button:hover {
+    transform: scale(1.1);
+}
+
+.language_image {
+    width: 3.5rem;
+    height: auto;
+}
+
+@media (max-width: 800px) {
+    .container_header {
+        width: 100%;
+        justify-content: space-between;
+        position: absolute;
+    }
+
+    .container_links li {
+        text-align: justify;
+    }
+
+    .hamburguer_button {
+        display: block;
+    }
+
+    .container_links {
+        display: none;
+        width: 10rem;
+        height: 15rem;
+    }
+
+    .openMenu {
+        height: 11rem;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        top: 5rem;
+        left: 0.4em;
+        background-color: #FF1493;
+        border-radius: 1rem;
+    }
+}

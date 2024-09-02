@@ -1,0 +1,15 @@
+COLORS
+DarkGrey: #A9A9A9
+Black: #000000
+BlueViolet:	#8A2BE2
+White: #FFF
+
+
+
+REACT https://www.devmedia.com.br/certificado/tecnologia/react/vinicius-jose-debiasi
+
+JS https://www.devmedia.com.br/certificado/tecnologia/javascript/vinicius-jose-debiasi
+
+CSS https://www.devmedia.com.br/certificado/tecnologia/css/vinicius-jose-debiasi
+
+HTML https://www.devmedia.com.br/certificado/tecnologia/html/vinicius-jose-debiasi

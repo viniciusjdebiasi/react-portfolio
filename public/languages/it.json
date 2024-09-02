@@ -1,0 +1,30 @@
+{
+    "headerFlagBrazil": "BRASILE",
+    "headerFlagItaly": "ITALIA",
+    "headerFlagUnitedKingdom": "Regno Unito",
+    "headerAbout": "Chi sono",
+    "headerProjects": "Progetti",
+    "headerCertifications": "Certificazioni",
+
+    "welcomeMessage":"Benvenuto!",
+    "meMessage":"Mi chiamo Vinicius e sono uno Sviluppatore Frontend",
+
+    "aboutMe":"Attualmente sono uno studente di Analisi e Sviluppo di Sistemi, con interesse a capire come funzionano le cose e una passione per la programmazione. Ho conoscenze in HTML, CSS e JavaScript, che sono essenziali per costruire esperienze web. Inoltre, mi concentro sull'apprendimento continuo di nuove tecnologie, come React, per creare interfacce utente dinamiche. Valorizzo la collaborazione e il controllo delle versioni nei progetti di sviluppo software, utilizzando strumenti come Git. Sono esperto in Media Queries, fondamentali per sviluppare siti web reattivi che si adattano a diversi dispositivi e dimensioni dello schermo. La mia esperienza con le tecnologie è fortemente basata su progetti personali, come lo sviluppo del mio portfolio. Ogni sfida che affronto in questi progetti è un'opportunità per imparare, crescere e affinare le mie competenze, permettendomi di costruire un portfolio che rifletta la mia dedizione e passione per il settore.",
+    
+    "professionalLife":"Professionale",
+    "personalLife":"Personale",
+
+    "aboutMeHobby":"Sono un brasiliano che sta vivendo un'esperienza arricchente in Italia. Il mio percorso è iniziato in Brasile, dove ho sviluppato alcuni hobby che continuano a far parte della mia vita oggi: il ciclismo e i videogiochi. Attualmente, mantengo il ciclismo come forma pratica di esercizio. Andare in bicicletta è un ottimo modo per restare attivo e esplorare sia le aree urbane che i sentieri rurali che mi circondano. È un'attività che si adatta bene alla mia routine e mi aiuta a mantenere la forma. Inoltre, sono un grande appassionato di videogiochi. Nei momenti in cui non pedalo, mi trovi immerso in mondi virtuali, godendo di giochi che stimolano la mia mente e offrono una fuga divertente dalla routine. I videogiochi sono un eccellente modo per rilassarmi e divertirmi. La vita in Italia è stata un'esperienza meravigliosa, ricca di nuove scoperte culturali e gastronomiche. Sto approfittando al massimo di questa nuova fase e sono sempre alla ricerca di un equilibrio tra le mie attività e i miei interessi in modo da arricchire la mia vita quotidiana.",
+
+    "bike": "CICLISMO",
+    "videoGame":"VIDEOGIOCO",
+    "resume":"Curriculum",
+
+    "pageDescription":"Esplora i miei progetti più recenti qui sotto",
+
+    "projectTitle":"Pagina di Login e Creazione Account",
+    "seeMoreSite":"Visita Progetto",
+    "seeMoreGitub":"Visualizza Codice",
+
+    "projectTitle2":"Progetto per la visualizzazione di progetti con supporto i18n"
+}

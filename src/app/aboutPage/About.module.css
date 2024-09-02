@@ -1,0 +1,124 @@
+.main {
+    width: 100%;
+    height: 90vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page_title {
+    font-size: 2rem;
+    background: linear-gradient(0deg, #A9A9A9, #FFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buttons_container {
+    width: 100%;
+    max-width: 90rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.buttons {
+    width: 15rem;
+    height: 3rem;
+    color: #FFF;
+    border: 0.1rem solid #FFF;
+    flex: 1 0 14rem;
+    padding: 0;
+    margin: 0;
+    background: none;
+    font-size: 1rem;
+    transition: 0.3s;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #8A2BE2;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+}
+
+.buttons:hover {
+    box-shadow: inset 45rem 0 0 0 #FFF;
+    color: #FF1493;
+    font-weight: bold;
+}
+
+.text_about {
+    text-align: justify;
+    line-height: 2rem;
+    color: #A9A9A9;
+}
+
+.resume_button {
+    margin-top: 1rem;
+    color: #FFF;
+    text-decoration: none;
+    border: 0.1rem solid #FFF;
+    width: 20rem;
+    height: 3rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #8A2BE2;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+} .resume_button:hover {
+    box-shadow: inset 20rem 0 0 0 #FFF;
+    color: #FF1493;
+    font-weight: bold;
+}
+
+.download_img {
+    background: none;
+}
+
+.container_img {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.img_about {
+    height: 4.5rem;
+    width: auto;
+    background: none;
+    filter: drop-shadow(linear-gradient(#A9A9A9) 0.4rem 0.4rem 0.4rem);
+}
+
+.img_card {
+    text-align: center;
+    font-weight: bold;
+    color: #A9A9A9;
+    padding: 0.6rem;
+} .img_card:hover { color: #FFF; }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .main{
+        height: auto;
+    }
+}

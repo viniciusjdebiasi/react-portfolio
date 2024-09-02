@@ -1,0 +1,30 @@
+{
+    "headerFlagBrazil": "BRAZIL",
+    "headerFlagItaly": "ITALY",
+    "headerFlagUnitedKingdom": "United Kingdom",
+    "headerAbout": "About",
+    "headerProjects": "Projects",
+    "headerCertifications": "Certifications",
+
+    "welcomeMessage":"Welcome!",
+    "meMessage":"My name is Vinicius, and I am a Frontend Developer",
+
+    "aboutMe":"I am currently a student of Systems Analysis and Development, with an interest in understanding how things work and a passion for programming. I have knowledge in HTML, CSS, and JavaScript, which are essential for building web experiences. Additionally, I focus on continuous learning of new technologies, such as React, to create dynamic user interfaces. I value collaboration and version control in software development projects, using tools like Git. I am proficient in Media Queries, which are fundamental for developing responsive websites that adapt to different devices and screen sizes. My experience with technologies is strongly based on personal projects, such as the development of my portfolio. Each challenge I face in these projects is an opportunity to learn, grow, and refine my skills, allowing me to build a portfolio that reflects my dedication and passion for the field.",
+    
+    "professionalLife":"Professional Life",
+    "personalLife":"Personal life",
+
+    "aboutMeHobby":"I am a Brazilian currently experiencing a rewarding life in Italy. My journey began in Brazil, where I developed some hobbies that continue to be a part of my life today: cycling and video games. Currently, I keep cycling as a practical form of exercise. Riding is an excellent way to stay active and explore both urban areas and rural trails around me. It fits well with my routine and helps me stay in shape. Additionally, I am a big fan of video games. When Im not cycling, you can find me immersed in virtual worlds, enjoying games that stimulate my mind and offer a fun escape from routine. Video games are a great way to relax and have fun. Life in Italy has been a wonderful experience, full of new cultural and gastronomic discoveries. I am making the most of this new phase and always seeking to balance my activities and interests in a way that enriches my daily life.",
+
+    "bike": "CYCLING",
+    "videoGame":"VIDEO GAME",
+    "resume":"Resume",
+
+    "pageDescription":"Explore my most recent projects below",
+
+    "projectTitle":"Login and Account Creation page",
+    "seeMoreSite":"Visit Project",
+    "seeMoreGitub":"View Code",
+
+    "projectTitle2":"Project for displaying projects with i18n support"
+}

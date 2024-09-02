@@ -1,0 +1,105 @@
+.main {
+    width: 100%;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 10rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.page_title {
+    font-size: 2rem;
+    background: linear-gradient(0deg, #A9A9A9, #FFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.img_project {
+    width: 35rem;
+    height: auto;
+    border-radius: 1rem 0 1rem 1rem;
+    border: 0.1rem solid #FFF;
+    margin-right: 0.8rem;
+    transition: 0.4s;
+    flex-basis: 1 0 40rem;
+}
+
+.project_title {
+    margin-top: 1rem;
+    color: #A9A9A9;
+}
+
+.page_text {
+    margin-top: 1rem;
+    color: #A9A9A9;
+}
+
+.technologies {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.technologies_html {
+    color: white;
+    background-color: #FF4500;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.technologies_css {
+    color: white;
+    background-color: #0000FF;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.technologies_js {
+    color: white;
+    background-color: #FFFF00;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.technologies_react {
+    color: white;
+    background-color: #000000;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.links {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.links:hover {
+    color: #FF1493;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+    .main {
+        height: 0 auto;
+    }
+
+    .img_project {
+        width: 25rem;
+        border-radius: 1rem 1rem 0 0;
+    }
+}

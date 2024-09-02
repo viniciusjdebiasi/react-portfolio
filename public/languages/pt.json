@@ -1,0 +1,30 @@
+{
+    "headerFlagBrazil": "BRASIL",
+    "headerFlagItaly": "ITALIA",
+    "headerFlagUnitedKingdom": "Reino Unido",
+    "headerAbout": "Sobre",
+    "headerProjects": "Projetos",
+    "headerCertifications": "Certificações",
+
+    "welcomeMessage":"Bem-vindo!",
+    "meMessage":"Me chamo Vinicius e sou Desenvolvedor Frontend",
+
+    "aboutMe":"Atualmente sou estudante de Análise e Desenvolvimento de Sistemas, com interesse em entender o funcionamento das coisas e apaixonado por programação. Possuo conhecimento em HTML, CSS e JavaScript, essenciais para construir experiências web. Além disso, me concentro no constante aprendizado de novas tecnologias, como React, para criar interfaces de usuário dinâmicas. Valorizo a colaboração e o controle de versão em projetos de desenvolvimento de software, utilizando ferramentas como Git. Domino Media Queries, que são fundamentais para desenvolver sites responsivos que se adaptam a diferentes dispositivos e tamanhos de tela. Minha experiência com tecnologias é fortemente baseada em projetos pessoais, como o desenvolvimento do meu portfólio. Cada desafio que enfrento nesses projetos é uma oportunidade de aprender, evoluir e refinar minhas habilidades, permitindo-me construir um portfólio que reflete minha dedicação e paixão pela área.",
+    
+    "professionalLife":"Profissional",
+    "personalLife":"Pessoal",
+
+    "aboutMeHobby":"Sou um brasileiro que está vivendo uma experiência enriquecedora na Itália. Minha trajetória começou no Brasil, onde desenvolvi alguns hobbies que continuam a fazer parte da minha vida hoje: o ciclismo e os videogames. Atualmente, mantenho o ciclismo como uma forma prática de exercício. Pedalar é uma excelente maneira de me manter ativo e explorar tanto as áreas urbanas quanto as trilhas rurais ao meu redor. É uma atividade que combina bem com minha rotina e me ajuda a manter a forma. Além disso, sou um grande fã de videogames. Nos momentos em que não estou pedalando, você pode me encontrar imerso em mundos virtuais, desfrutando de jogos que estimulam minha mente e oferecem um escape divertido da rotina. Os videogames são uma excelente forma de relaxar e me divertir. A vida na Itália tem sido uma experiência maravilhosa, repleta de novas descobertas culturais e gastronômicas. Estou aproveitando ao máximo essa nova fase e sempre em busca de equilibrar minhas atividades e interesses de forma que enriqueça meu dia a dia.",
+
+    "bike": "CICLISMO",
+    "videoGame":"VIDEO GAME",
+    "resume":"Currículo",
+
+    "pageDescription":"Explore meus projetos mais recentes abaixo",
+
+    "projectTitle":"Página de Login e Criação de Conta",
+    "seeMoreSite":"Visitar Projeto",
+    "seeMoreGitub":"Visualizar Código",
+
+    "projectTitle2":"Projeto de exibição de projetos com suporte a i18n"
+}
