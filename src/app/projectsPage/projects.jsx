@@ -42,8 +42,8 @@ export default function ProjectsPage({ language }) {
                                 <p className={styles.technologies_react}>REACT</p>
                             </div>
                             <div>
-                                <a href="https://logint-page-react.vercel.app/" target='_blank' className={styles.links}>{language('seeMoreSite')} &gt;</a>
-                                <a href="https://github.com/viniciusjdebiasi/logintPage-react" target='_blank' className={styles.links}>{language('seeMoreGitub')} &gt;</a>
+                                <a href="https://github.com/viniciusjdebiasi/react-portfolio" target='_blank' className={styles.links}>{language('seeMoreSite')} &gt;</a>
+                                <a href="https://react-portfolio-nine-wine.vercel.app/" target='_blank' className={styles.links}>{language('seeMoreGitub')} &gt;</a>
                             </div>
                         </section>
                     </div>
