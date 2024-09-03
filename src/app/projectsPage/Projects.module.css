@@ -93,7 +93,7 @@
     color: #FF1493;
 }
 
-@media (min-width: 320px) and (max-width: 800px) {
+@media (max-width: 800px) {
     .main {
         height: 0 auto;
     }

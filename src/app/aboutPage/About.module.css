@@ -49,7 +49,7 @@
     transition: 0.3s;
     display: inline-block;
     cursor: pointer;
-    box-shadow: inset 0 0 0 0 #8A2BE2;
+    box-shadow: inset 0 0 0 0 #FFF;
     -webkit-transition: ease-out 0.5s;
     -moz-transition: ease-out 0.5s;
     transition: ease-out 0.5s;
@@ -79,7 +79,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    box-shadow: inset 0 0 0 0 #8A2BE2;
+    box-shadow: inset 0 0 0 0 #FFF;
     -webkit-transition: ease-out 0.5s;
     -moz-transition: ease-out 0.5s;
     transition: ease-out 0.5s;
@@ -117,7 +117,7 @@
     padding: 0.6rem;
 } .img_card:hover { color: #FFF; }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 800px) {
     .main{
         height: auto;
     }
