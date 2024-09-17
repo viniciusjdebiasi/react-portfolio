@@ -7,7 +7,7 @@ import IT from '../../../public/assets/italia.png';
 import EN from '../../../public/assets/rn.png';
 import Hamburguer from '../../../public/assets/hamburguer.png'
 
-export default function Header({ changeLanguageButton, language, navigationAbout, navigationProject }) {
+export default function Header({ changeLanguageButton, language, navigationAbout, navigationProject, navigationContact }) {
 
     const [isOpen, setIsOpen] = useState(false)
     const toggleMenu = () => { setIsOpen(!isOpen) }
@@ -41,6 +41,7 @@ export default function Header({ changeLanguageButton, language, navigationAbout
                         <li><a href={navigationAbout} className={styles.button_page} >{language('headerAbout')}</a></li>
                         <li><a href={navigationProject} className={styles.button_page} >{language('headerProjects')}</a></li>
                         {/*  <li><a href={navigation} className={styles.button_page} >{language('headerCertifications')}</a></li> JSX */}
+                        <li><a href={navigationContact} className={styles.button_page} >{language('contact')}</a></li>
                     </ul>
                 </div>
 

@@ -78,7 +78,7 @@ export default function AboutPage({ language }) {
                 </div>
             </div>
 
-            <a href="/resume_en.pdf" download='resume_en.pdf' className={styles.resume_button}>{language('resume')}&nbsp;&nbsp;&nbsp;<Image src={download} alt='Download' className={styles.download_img} /></a>
+            <a href={language('resumePdf')} download={language('resumePdf')} className={styles.resume_button}>{language('resume')}&nbsp;&nbsp;&nbsp;<Image src={download} alt='Download' className={styles.download_img} /></a>
         </div>
     )
 }

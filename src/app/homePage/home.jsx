@@ -19,7 +19,7 @@ export default function HomePage({ language }) {
                     </div>
 
                     <div className={styles.link_contain}>
-                    <a href="https://www.linkedin.com/in/vinicius-jos%C3%A9-debiasi-835573255/" target='_blank'><Image src={Linkedin} alt='Linkedin' className={styles.icons} /></a>
+                        <a href="https://www.linkedin.com/in/viniciusjosedebiasi" target='_blank'><Image src={Linkedin} alt='Linkedin' className={styles.icons} /></a>
                         <a href="https://github.com/viniciusjdebiasi" target='_blank'><Image src={Github} alt='Github' className={styles.icons} /></a>
                         <a href="tel:+393314289570"><Image src={Whatsapp} alt='WhatsApp' className={styles.icons} /></a>
                     </div>

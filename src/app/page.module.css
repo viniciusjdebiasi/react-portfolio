@@ -1,3 +1,25 @@
 .main {
     background-image: linear-gradient(to right, #FF1493, #9400D3,  #4169E1);
 }
+
+.button_container {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.buttonUp {
+    border: none;
+    cursor: pointer;
+    background: none;
+    
+}
+
+.up {
+    color: white;
+    padding: 0.2rem;
+    transition: 0.4s;
+} .up:hover {
+    color: #FF1493;
+    transform: scale(1.1);
+}

@@ -1,4 +1,6 @@
 {
+    "resumePdf": "CURRICULO_EN.pdf",
+    
     "headerFlagBrazil": "BRAZIL",
     "headerFlagItaly": "ITALY",
     "headerFlagUnitedKingdom": "United Kingdom",
@@ -26,5 +28,23 @@
     "seeMoreSite":"Visit Project",
     "seeMoreGitub":"View Code",
 
-    "projectTitle2":"Portfolio using i18n"
+    "projectTitle2":"Portfolio using i18n",
+
+    "titleContact":"What can I do for you?",
+    "messageT":"Thank you for reaching out!",
+    "contactPhrase":"Fill out the fields below and I will contact you soon.",
+    "fullName":"Full name",
+    "emailContact":"Email",
+    "phoneContact":"Phone",
+    "descriptionContact":"Description",
+    "typeName":"Enter your name",
+    "typeEmail":"Enter your email",
+    "sendButton":"Send",
+    "contact":"Contact",
+
+    "messageName":"Enter your name",
+    "messageEmail":"Enter your email",
+    "messagePhone":"Enter your phone number",
+    "messageDescription":"Describe your issue",
+    "messageAllRight":"Message sent successfully"
 }

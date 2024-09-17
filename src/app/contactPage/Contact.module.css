@@ -1,0 +1,98 @@
+.main {
+    width: 100%;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 10rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page_title {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    background: linear-gradient(0deg, #A9A9A9, #FFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.message {
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs_form {
+    color: #A9A9A9;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    border: none;
+    width: 70%;
+    max-width: 30rem;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+}
+
+.inputs:focus {
+    outline: 0.2rem solid #4169E1;
+}
+
+.text_form {
+    width: 100%;
+    max-width: 40rem;
+    height: 8rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.text_form:focus {
+    border-color: #4169E1;
+    outline: 0.2rem solid #4169E1;
+}
+
+.button_page {
+    background: none;
+    color: #FFF;
+    text-decoration: none;
+    border: 0.1rem solid #FFF;
+    width: 100%;
+    max-width: 40rem;
+    height: 3rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+} .button_page:hover {
+    box-shadow: inset 40rem 0 0 0 #FFF;
+    color: #FF1493;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+
+}
