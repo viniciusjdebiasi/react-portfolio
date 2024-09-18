@@ -1,0 +1,76 @@
+.main_container {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.img_about {
+  height: auto;
+  width: 4rem;
+  background: none;
+  filter: drop-shadow(linear-gradient(#A9A9A9) 0.4rem 0.4rem 0.4rem);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 90rem;
+  margin-inline: auto;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+.item {
+  width: 4.5rem;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  left: max(calc(4.5rem * 10), 100%);
+  animation-name: scrollLeft;
+}
+
+.item1 {
+  animation-delay: calc(30s / 10 * (10 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(30s / 10 * (10 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(30s / 10 * (10 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(30s / 10 * (10 - 4) * -1);
+}
+
+.item5 {
+  animation-delay: calc(30s / 10 * (10 - 5) * -1);
+}
+
+.item6 {
+  animation-delay: calc(30s / 10 * (10 - 6) * -1);
+}
+
+.item7 {
+  animation-delay: calc(30s / 10 * (10 - 7) * -1);
+}
+
+.item8 {
+  animation-delay: calc(30s / 10 * (10 - 8) * -1);
+}
+
+.item9 {
+  animation-delay: calc(30s / 10 * (10 - 9) * -1);
+}
+
+.item10 {
+  animation-delay: calc(30s / 10 * (10 - 10) * -1);
+}
