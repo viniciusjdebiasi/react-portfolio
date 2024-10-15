@@ -3,7 +3,8 @@ import styles from './Projects.module.css';
 
 import loginPage from '../../../public/assets/loginPage.png';
 import portfolio from '../../../public/assets/portfolio.png';
-import todoList from '../../../public/assets/toDoList.png'
+import todoList from '../../../public/assets/toDoList.png';
+import app from '../../../public/assets/appTab.jpeg';
 
 export default function ProjectsPage({ language }) {
 
@@ -51,6 +52,23 @@ export default function ProjectsPage({ language }) {
                     </div>
 
                     <div className={styles.card}>
+                        <Image src={app} className={styles.img_project} />
+                        <section>
+                            <h3 className={styles.project_title}>{language('projectTitle4')}</h3>
+                            <div className={styles.technologies}>
+                                <p className={styles.technologies_css}>CSS</p>
+                                <p className={styles.technologies_js}>JAVASCRIPT</p>
+                                <p className={styles.technologies_react}>REACT</p>
+                                <p className={styles.technologies_reactn}>REACT NATIVE</p>
+                                <p className={styles.technologies_expo}>EXPO</p>
+                            </div>
+                            <div>
+                                <a href="https://github.com/viniciusjdebiasi/multiplicationTable-reactNative" target='_blank' className={styles.links}>{language('seeMoreGitub')} &gt;</a>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div className={styles.card}>
                         <Image src={portfolio} className={styles.img_project} />
                         <section>
                             <h3 className={styles.project_title}>{language('projectTitle2')}</h3>
@@ -61,7 +79,6 @@ export default function ProjectsPage({ language }) {
                                 <p className={styles.technologies_react}>REACT</p>
                             </div>
                             <div>
-                                <a href="https://react-portfolio-nine-wine.vercel.app/" target='_blank' className={styles.links}>{language('seeMoreSite')} &gt;</a>
                                 <a href="https://github.com/viniciusjdebiasi/react-portfolio" target='_blank' className={styles.links}>{language('seeMoreGitub')} &gt;</a>
                             </div>
                         </section>

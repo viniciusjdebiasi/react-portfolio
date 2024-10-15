@@ -90,6 +90,22 @@
     font-weight: bold;
 }
 
+.technologies_reactn {
+    color: white;
+    background-color: #20B2AA;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.technologies_expo {
+    color: white;
+    background-color: #808080;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
 .links {
     display: block;
     color: #FFF;
