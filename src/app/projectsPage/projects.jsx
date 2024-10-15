@@ -3,6 +3,7 @@ import styles from './Projects.module.css';
 
 import loginPage from '../../../public/assets/loginPage.png';
 import portfolio from '../../../public/assets/portfolio.png';
+import todoList from '../../../public/assets/toDoList.png'
 
 export default function ProjectsPage({ language }) {
 
@@ -27,6 +28,24 @@ export default function ProjectsPage({ language }) {
                             <div>
                                 <a href="https://logint-page-react.vercel.app/" target='_blank' className={styles.links}>{language('seeMoreSite')} &gt;</a>
                                 <a href="https://github.com/viniciusjdebiasi/logintPage-react" target='_blank' className={styles.links}>{language('seeMoreGitub')} &gt;</a>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div className={styles.card}>
+                        <Image src={todoList} className={styles.img_project} />
+                        <section>
+                            <h3 className={styles.project_title}>{language('projectTitle3')}</h3>
+                            <div className={styles.technologies}>
+                                <p className={styles.technologies_html}>HTML</p>
+                                <p className={styles.technologies_css}>CSS</p>
+                                <p className={styles.technologies_js}>JAVASCRIPT</p>
+                                <p className={styles.technologies_react}>REACT</p>
+                                <p className={styles.technologies_vite}>VITE</p>
+                            </div>
+                            <div>
+                                <a href="https://to-do-list-react-ruddy-nine.vercel.app/" target='_blank' className={styles.links}>{language('seeMoreSite')} &gt;</a>
+                                <a href="https://github.com/viniciusjdebiasi/toDoList-react" target='_blank' className={styles.links}>{language('seeMoreGitub')} &gt;</a>
                             </div>
                         </section>
                     </div>
