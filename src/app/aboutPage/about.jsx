@@ -3,16 +3,6 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import styles from './About.module.css';
 import download from '../../../public/assets/download.png'
-import html from '../../../public/assets/html.png';
-import css from '../../../public/assets/css.png';
-import js from '../../../public/assets/js.png';
-import react from '../../../public/assets/react.png';
-import bootstrap from '../../../public/assets/bootstrap.png';
-import git from '../../../public/assets/git.png';
-import bicicleta from '../../../public/assets/bicicleta.png';
-import videogame from '../../../public/assets/videogame.png';
-import brasil from '../../../public/assets/brasil.png';
-import italia from '../../../public/assets/italia.png';
 
 import ScrollAbout from '@/components/scroll/scroll';
 
