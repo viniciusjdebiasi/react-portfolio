@@ -22,7 +22,7 @@ export default function Home() {
   useEffect(() => {
     // Função para monitorar a rolagem da página
     const handleScroll = () => {
-      if (window.pageYOffset > 300) { // Exibe o botão após rolar 300px
+      if (window.scrollY > 10) { // Exibe o botão após rolar 300px
         setShowButton(true);
       } else {
         setShowButton(false);
@@ -35,6 +35,7 @@ export default function Home() {
     // Limpa o event listener ao desmontar o componente
     return () => {
       window.removeEventListener('scroll', handleScroll);
+      window.dispatchEvent(new Event('scroll'));
     };
   }, []);
 

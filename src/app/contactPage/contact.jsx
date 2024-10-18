@@ -1,10 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Image from 'next/image';
 import styles from './Contact.module.css';
 import enviar from '../../../public/assets/enviar.png';
 
 export default function ContactPage({ language }) {
+
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+      }, []);
 
     const [name, setName] = useState('')
     const [messageD, setMessageD] = useState('')
@@ -40,7 +46,7 @@ export default function ContactPage({ language }) {
 
 
     return (
-        <div className={styles.main} id='contact'>
+        <div className={styles.main} id='contact'data-aos='fade-right'>
             <div className={styles.container}>
                 <div>
                     <div>

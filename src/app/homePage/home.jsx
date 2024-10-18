@@ -1,5 +1,7 @@
 'use client';
-import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, {useEffect} from 'react';
 import Image from 'next/image';
 import styles from './Home.module.css';
 import Me from '../../../public/assets/me3.png';
@@ -9,8 +11,12 @@ import Linkedin from '../../../public/assets/linkedin.png';
 
 export default function HomePage({ language }) {
 
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+      }, []);
+
     return (
-        <div className={styles.main}>
+        <div className={styles.main} data-aos='fade-down'>
             <div className={styles.main_container}>
                 <div className={styles.homePage}>
                     <div>

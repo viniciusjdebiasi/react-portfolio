@@ -1,6 +1,8 @@
+import React, {useEffect} from 'react';
 import Image from 'next/image';
 import styles from './Projects.module.css';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import loginPage from '../../../public/assets/loginPage.png';
 import portfolio from '../../../public/assets/portfolio.png';
 import todoList from '../../../public/assets/toDoList.png';
@@ -8,8 +10,12 @@ import app from '../../../public/assets/appTab.jpeg';
 
 export default function ProjectsPage({ language }) {
 
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+      }, []);
+
     return (
-        <div className={styles.main} id='projects'>
+        <div className={styles.main} id='projects' data-aos='fade-right'>
             <div className={styles.container_main}>
                 <div>
                     <h2 className={styles.page_title}>{language('headerProjects')}</h2>

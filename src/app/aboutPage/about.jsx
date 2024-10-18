@@ -1,5 +1,7 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Image from 'next/image';
 import styles from './About.module.css';
 import download from '../../../public/assets/download.png'
@@ -14,8 +16,12 @@ export default function AboutPage({ language }) {
         setTextAbout(message)
     }
 
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+      }, []);
+
     return (
-        <div className={styles.main} id='about'>
+        <div className={styles.main} id='about' data-aos='fade-right'>
             <div>
                 <h2 className={styles.page_title}>{language('headerAbout')}</h2>
                 <div className={styles.container}>
