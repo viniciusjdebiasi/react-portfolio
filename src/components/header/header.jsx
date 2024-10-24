@@ -1,5 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Image from 'next/image';
 import styles from './Header.module.css';
 import PT from '../../../public/assets/brasil.png';
@@ -29,8 +31,12 @@ export default function Header({ changeLanguageButton, language, navigationAbout
         }
     }, [])
 
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+      }, []);
+
     return (
-        <nav className={styles.main}>
+        <nav className={styles.main} data-aos='fade-down' >
             <div className={styles.container_header} >
                 <div>
                     <button className={styles.hamburguer_button} onClick={toggleMenu} >
@@ -38,10 +44,10 @@ export default function Header({ changeLanguageButton, language, navigationAbout
                     </button>
 
                     <ul className={`${styles.container_links} ${isOpen ? styles.openMenu : ''}`}>
-                        <li><a href={navigationAbout} className={styles.button_page} >{language('headerAbout')}</a></li>
-                        <li><a href={navigationProject} className={styles.button_page} >{language('headerProjects')}</a></li>
+                        <li><a href={navigationAbout} className={styles.button_page} onClick={() => {setIsOpen(false)}} >{language('headerAbout')}</a></li>
+                        <li><a href={navigationProject} className={styles.button_page} onClick={() => {setIsOpen(false)}}  >{language('headerProjects')}</a></li>
                         {/*  <li><a href={navigation} className={styles.button_page} >{language('headerCertifications')}</a></li> JSX */}
-                        <li><a href={navigationContact} className={styles.button_page} >{language('contact')}</a></li>
+                        <li><a href={navigationContact} className={styles.button_page} onClick={() => {setIsOpen(false)}}  >{language('contact')}</a></li>
                     </ul>
                 </div>
 

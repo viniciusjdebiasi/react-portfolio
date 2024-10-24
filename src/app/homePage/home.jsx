@@ -12,11 +12,11 @@ import Linkedin from '../../../public/assets/linkedin.png';
 export default function HomePage({ language }) {
 
     useEffect(() => {
-        AOS.init({ duration: 1000 });
+        AOS.init({ duration: 900 });
       }, []);
 
     return (
-        <div className={styles.main} data-aos='fade-down'>
+        <div className={styles.main} data-aos='fade-up'>
             <div className={styles.main_container}>
                 <div className={styles.homePage}>
                     <div>
